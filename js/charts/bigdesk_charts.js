@@ -647,9 +647,9 @@ bigdesk_charts.indicesGetReqs = {
             .width(bigdesk_charts.default.width).height(bigdesk_charts.default.height)
             .legend({
                 caption: "Get requests per second (Δ)",
-                series1: "Missing",
-                series2: "Exists",
-                series3: "Get",
+                series1: "Get",
+                series2: "Missing",
+                series3: "Exists",
                 margin_left: 5,
                 margin_bottom: 6,
                 width: 65})
@@ -691,9 +691,9 @@ bigdesk_charts.indicesGetTime = {
             .width(bigdesk_charts.default.width).height(bigdesk_charts.default.height)
             .legend({
                 caption: "Get time per second (Δ)",
-                series1: "Missing",
-                series2: "Exists",
-                series3: "Get",
+                series1: "Get",
+                series2: "Missing",
+                series3: "Exists",
                 margin_left: 5,
                 margin_bottom: 6,
                 width: 65})
